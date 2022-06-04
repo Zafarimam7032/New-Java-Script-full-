@@ -1,0 +1,18 @@
+var message = " Hi How are you";
+console.info(message);
+console.info(typeof message);
+console.info(message.toUpperCase());
+console.info(message.length);
+console.info(message.charAt(message.length - 1));
+console.info(message.indexOf("How"));
+console.info(message.charCodeAt(0));
+console.info(message.concat(" Zafar", " Imam"));
+console.info(message.match("How"));
+console.info(message.replace("Hi", "Hello"));
+console.info(message.slice(0, 6));
+var studendaName = "Zafar Imam";
+console.info(`hi mr ${studendaName}`);
+console.info(studendaName + message);
+console.info(studendaName.concat(message));
+console.info(message.split("Hi How"));
+console.info(message.toLocaleLowerCase("Hi"));

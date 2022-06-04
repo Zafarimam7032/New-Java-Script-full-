@@ -1,0 +1,16 @@
+let i = 0;
+while (i < 10) {
+  console.info(i);
+  i++;
+}
+i = 0;
+do {
+  console.info(i);
+  i++;
+} while (i <= 5);
+let collegeNames = ["Mrce", "jntuh", "DU", "Pu"];
+let j = 0;
+while (j < collegeNames.length) {
+  console.info(collegeNames[j]);
+  j++;
+}
