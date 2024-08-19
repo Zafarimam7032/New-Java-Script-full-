@@ -40,5 +40,5 @@ let collegeVo = {
     }),
   ],
 };
-//console.info(collegeVo);
+console.info(collegeVo);
 console.info(collegeVo.students[0]);
